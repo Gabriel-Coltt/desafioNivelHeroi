@@ -15,10 +15,9 @@ nomeHeroi = prompt("Digite seu nome de Herói:");
 while(nomeHeroi === ""){
     console.log("Você precisa de um nome de herói para trilhar o caminho da vitória!");
     nomeHeroi = prompt("Por favor, digite o nome do seu herói:");
+    //Impossível seguir sem um nome de herói
 }
 console.log("Seja bem vindo, " +nomeHeroi+ "!")
-
-
 
 
 switch(nivelHeroi >=0){
